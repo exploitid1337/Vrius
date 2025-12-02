@@ -2,7 +2,7 @@ import socket
 
 # Configure the server
 HOST = '192.168.1.6'  # Listen on all available interfaces
-PORT = 192.168.1.1       # Port to listen on
+PORT = 8080       # Port to listen on
 
 # Create a socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
